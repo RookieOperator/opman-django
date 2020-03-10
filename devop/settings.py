@@ -102,11 +102,11 @@ WSGI_APPLICATION = 'devop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'devop',
-        'USER': 'dbuser_op',
-        'PASSWORD': 'devop@2015***',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'devops',
+        'USER': 'dbuser_ops',
+        'PASSWORD': 'devops@2020',
+        'HOST': '172.17.0.2',
+        'PORT': '3306',
     }
 }
 
